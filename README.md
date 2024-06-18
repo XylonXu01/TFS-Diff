@@ -2,7 +2,7 @@ TFS-Diff: Simultaneous Tri-Modal Medical Image Fusion and Super-Resolution using
 ===========
 <details>
 <summary>
-  <b>TFS-Diff: Simultaneous Tri-Modal Medical Image Fusion and Super-Resolution using Conditional Diffusion Model</b>, **MICCAI 2024**.
+  <b>Simultaneous Tri-Modal Medical Image Fusion and Super-Resolution using Conditional Diffusion Model</b>, <span style="color:red;">MICCAI 2024</span>.
   <a href="https://arxiv.org/abs/2404.17357" target="blank">[arXiv]</a>
 </summary>
 
