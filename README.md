@@ -10,7 +10,7 @@ In clinical practice, tri-modal medical image fusion, compared to the existing d
 </details>
 
 <div align="center">
-  <img width="100%" alt="SLPD Illustration" src="./TFSDiff.pdf">
+  <img width="100%" alt="TFSDiff" src="./TFSDiff.pdf">
 </div>
 
 <details>
