@@ -1,4 +1,4 @@
-TFS-Diff: Simultaneous Tri-Modal Medical Image Fusion and Super-Resolution using Conditional Diffusion Model
+Simultaneous Tri-Modal Medical Image Fusion and Super-Resolution using Conditional Diffusion Model
 ===========
 <details>
 <summary>
