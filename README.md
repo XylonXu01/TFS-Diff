@@ -12,6 +12,9 @@ In clinical practice, tri-modal medical image fusion, compared to the existing d
 <div align="center">
   <img width="100%" alt="TFSDiff" src="./TFSDiff.png">
 </div>
+<div align="center">
+  <img width="100%" alt="TFSDiff" src="./Compare_Result.png">
+</div>
 
 ## 🎓 Citation
 
