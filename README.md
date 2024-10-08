@@ -13,8 +13,19 @@ In clinical practice, tri-modal medical image fusion, compared to the existing d
   <img width="100%" alt="TFSDiff" src="./TFSDiff.png">
 </div>
 
+## 🎓 Citation
 
-## Citations
-Please consider citing our paper in your publications if the project helps your research. BibTeX reference is TBD.
+Please cite our paper:
 
-
+```bibtex
+              @InProceedings{ Xu_Simultaneous_MICCAI2024,
+                 author = { Xu, Yushen and Li, Xiaosong and Jie, Yuchan and Tan, Haishu },
+                 title = { { Simultaneous Tri-Modal Medical Image Fusion and Super-Resolution using Conditional Diffusion Model } }, 
+                 booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+                 year = {2024},
+                 publisher = {Springer Nature Switzerland},
+                 volume = { LNCS 15007 },
+                 month = {October},
+                 pages = { pending },
+              }
+```
