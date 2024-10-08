@@ -13,15 +13,6 @@ In clinical practice, tri-modal medical image fusion, compared to the existing d
   <img width="100%" alt="TFSDiff" src="./TFSDiff.png">
 </div>
 
-<details>
-  <summary>
-	  <b>Highlights</b>
-  </summary>
-
-1. The TFS-Diff model synchronously implements end-to-end tri-modal image fusion and super-resolution processing, eliminating the need for manually designing complex fusion and super-resolution network architectures. This significantly simplifies the model design process.
-2. We propose a feature fusion module based on a channel attention mechanism that can learn and extract shared features and modality-specific features from different modal medical images.
-3. A new fusion and super-resolution loss function is proposed to retain the sharpness, texture and contrast information of the medical images into the fused result. Meanwhile, it guarantees the stability of the model training process and the high quality of the fused results.
-</details>
 
 ## Citations
 Please consider citing our paper in your publications if the project helps your research. BibTeX reference is TBD.
