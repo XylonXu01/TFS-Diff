@@ -59,9 +59,7 @@ Download the dataset on [Google Drive]()\|[Baidu Yun]()
 **1. Pre-trained models**
 | Tasks                             | Platform                                     | 
 | -------------------------------------- | ------------------------------------------------------------ |
-| 128×128 -> 256×256 on Harvard Datasets | [Google Drive]()\|[Baidu Yun](https://pan.baidu.com/s/1jdCBgvFuWCB6pmg2tym_Iw?pwd=00o6 
-提取码：00o6 
---来自百度网盘超级会员V6的分享) |  
+| 128×128 -> 256×256 on Harvard Datasets | [Google Drive]()\|[Baidu Yun](https://pan.baidu.com/s/1jdCBgvFuWCB6pmg2tym_Iw?pwd=00o6) |  
 | 64×64 -> 256×256 on Harvard Datasets   | Coming soon |   
 | 32×32 -> 256×256 on Harvard Datasets   | Coming soon | 
 
