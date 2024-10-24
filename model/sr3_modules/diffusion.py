@@ -6,6 +6,7 @@ from inspect import isfunction
 from functools import partial
 import numpy as np
 from tqdm import tqdm
+import kornia
 
 # DDNM
 def color2gray(x):
@@ -148,6 +149,7 @@ class GaussianDiffusion(nn.Module):
             # self.set_new_noise_schedule(schedule_opt)
 
     def set_loss(self, device):
+        self.ssim_loss =kornia.losses.SSIM(11, reduction='mean')
         if self.loss_type == 'l1':
             self.loss_func = nn.L1Loss(reduction='sum').to(device)
         elif self.loss_type == 'l2':
@@ -364,7 +366,7 @@ class GaussianDiffusion(nn.Module):
 
             x_recon = self.denoise_fn(
                 torch.cat([x_in['1_2_3_SR'], x_noisy], dim=1), continuous_sqrt_alpha_cumprod) # 通过 denoise_fn 方法将红外 (IR) 和可见光 (VI) 的 SR 图像和添加噪声的图像进行拼接再进行去噪
-        loss = self.loss_func(noise, x_recon)  # 计算损失值
+        loss = self.loss_func(noise, x_recon) + self.ssim_loss(x_start, x_recon) # 计算损失值
         return loss  # 返回损失值
 
     def forward(self, x, *args, **kwargs):
