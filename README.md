@@ -26,16 +26,14 @@ In clinical practice, tri-modal medical image fusion, compared to the existing d
 Please cite our paper:
 
 ```bibtex
-              @InProceedings{ Xu_Simultaneous_MICCAI2024,
-                 author = { Xu, Yushen and Li, Xiaosong and Jie, Yuchan and Tan, Haishu },
-                 title = { { Simultaneous Tri-Modal Medical Image Fusion and Super-Resolution using Conditional Diffusion Model } }, 
-                 booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
-                 year = {2024},
-                 publisher = {Springer Nature Switzerland},
-                 volume = { LNCS 15007 },
-                 month = {October},
-                 pages = { pending },
-              }
+@inproceedings{xu2024simultaneous,
+  title={Simultaneous Tri-Modal Medical Image Fusion and Super-Resolution using Conditional Diffusion Model},
+  author={Xu, Yushen and Li, Xiaosong and Jie, Yuchan and Tan, Haishu},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={635--645},
+  year={2024},
+  organization={Springer}
+}
 ```
 
 ## Usage
@@ -86,5 +84,42 @@ python sr.py -p train -c config/sr_sr3.json
 Our work is based on the following theoretical works:
 
 - [Image-Super-Resolution-via-Iterative-Refinement](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement/tree/master)
+
+Other work by our team on **Tri-modal medical image fusion**：
+- [Generative Adversarial Network for Trimodal Medical Image Fusion using Primitive Relationship Reasoning](https://github.com/JasonWong30/PRRGAN)
+```bibtex
+@article{huang2024generative,
+  title={Generative Adversarial Network for Trimodal Medical Image Fusion using Primitive Relationship Reasoning},
+  author={Huang, Jingxue and Li, Xiaosong and Tan, Haishu and Cheng, Xiaoqi},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  year={2024},
+  publisher={IEEE}
+}
+```
+- [Tri-modal medical image fusion and denoising based on bitonicX filtering](https://github.com/JEI981214/Tri-modal-bitonicX-based)
+```bibtex
+@article{jie2023tri,
+  title={Tri-Modal Medical Image Fusion and Denoising Based on BitonicX Filtering},
+  author={Jie, Yuchan and Li, Xiaosong and Zhou, Fuqiang and Ye, Tao},
+  journal={IEEE Transactions on Instrumentation and Measurement},
+  volume={72},
+  pages={1--15},
+  year={2023},
+  publisher={IEEE}
+}
+```
+- [Tri-modal medical image fusion based on adaptive energy choosing scheme and sparse representation](https://github.com/JEI981214/Tri-modal-image-fusion)
+```bibtex
+@article{jie2022tri,
+  title={Tri-modal medical image fusion based on adaptive energy choosing scheme and sparse representation},
+  author={Jie, Yuchan and Zhou, Fuqiang and Tan, Haishu and Wang, Gao and Cheng, Xiaoqi and Li, Xiaosong},
+  journal={Measurement},
+  volume={204},
+  pages={112038},
+  year={2022},
+  publisher={Elsevier}
+}
+```
+
 
 
